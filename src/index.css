@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "PROXIMA";
+  src: local("PROXIMA"),
+    url("../src/assets/font/PROXIMANOVACOND-BLACK.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Basis";
+  src: local("Basis"),
+    url("../src/assets/font/BASISGROTESQUEPRO-BLACK.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mona";
+  src: local("Mona"),
+    url("../src/assets/font/MONA-SANS-SEMIBOLD.OTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
